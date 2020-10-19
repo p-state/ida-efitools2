@@ -1,5 +1,5 @@
 # About
-It is an IDA plugin for extending UEFI reverse engineering capabilities. Based on [ida-efitools](https://github.com/danse-macabre/ida-efitools) with a bunch of fixes and new features.
+It is an IDA plugin for extending UEFI reverse engineering capabilities. Based on [ida-efitools](https://github.com/danse-macabre/ida-efitools) with a bunch of fixes and new features.  
 Works with both Python 2 and Python 3. Supports outdated versions of IDA Pro 7.x with no guarantees.
 
 # Features
@@ -51,8 +51,8 @@ It's IDA's built-in feature. Just open the context menu for the type in Local Ty
 Just copy `ida-efitools2.py` file and `efitools2` folder to IDA's plugins directory.
 
 # Credits
-[@snare](https://github.com/snare) for original code base of [ida-efiutils](https://github.com/snare/ida-efiutils).
-[@danse-macabre](https://github.com/danse-macabre) for rewritten from scratch [ida-efitools](https://github.com/danse-macabre/ida-efitools).
-[@djpohly](https://github.com/djpohly), [@al3xtjames](https://github.com/al3xtjames), [@vutung2311](https://github.com/vutung2311) for contributions (forks).
+[@snare](https://github.com/snare) for original code base of [ida-efiutils](https://github.com/snare/ida-efiutils).  
+[@danse-macabre](https://github.com/danse-macabre) for rewritten from scratch [ida-efitools](https://github.com/danse-macabre/ida-efitools).  
+[@djpohly](https://github.com/djpohly), [@al3xtjames](https://github.com/al3xtjames), [@vutung2311](https://github.com/vutung2311) for contributions (forks).  
 [@p-state](https://github.com/vutung2311) (me) for breathing a new life into
 this.
