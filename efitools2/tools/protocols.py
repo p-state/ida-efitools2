@@ -105,7 +105,13 @@ def _prepare_guid(op, prefix):
         print("Do not know how to extract GUID ptr from %s at 0x%X" % (op, op.ea))
         return
 
-    return GUID(ptr=guid_ptr)
+    guid = None
+    try:
+        guid = GUID(ptr=guid_ptr)
+    except Exception as e:
+        print("Error: %s" % repr(e))
+
+    return guid
 
 
 def _prepare_struc(guid):
@@ -117,7 +123,13 @@ def _prepare_struc(guid):
     if struc_name == "Protocol":
         return None
 
-    return Structure(name=struc_name)
+    struc = None
+    try:
+        struc = Structure(name=struc_name)
+    except Exception as e:
+        print("Error: %s" % repr(e))
+
+    return struc
 
 
 def _prepare_interface(op, struc, function, bind_point, protocol_type):
